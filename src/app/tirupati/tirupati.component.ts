@@ -73,7 +73,7 @@ export class TirupatiComponent {
     },
     {
       temple_name:'Prasanna Venkateswara Temple, Appalayagunta',
-      temple_src:'http://www.touritvirtually.com/wp-content/uploads/2020/02/Prasanna_Venkateswara_Swamy_Temple_Appalayagunta.jpg',
+      temple_src:'http://www.touritvirtually.com/wp-content/uploads/2020/02/_MG_0170.JPG',
       distance_from_airport:'From Airport: 22-28Km',
       distance_from_railwaystation:'From RailwayStation: 16-26Km',
       distance_from_bustand:'From Bustand: 16-25Km',
