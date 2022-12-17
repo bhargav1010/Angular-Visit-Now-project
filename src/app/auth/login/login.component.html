@@ -1,0 +1,27 @@
+
+<div class="p-40 flex justify-center">
+  <div class="p-30 shadow-xl rounded-xl text-center bg-white max-w-450px relative">
+   <div class="mt-8 text-black"><h2>USER LOGIN</h2></div>
+
+    <form (ngSubmit)="submit()" #myForm="ngForm">
+
+      <input type="email" id="email" 
+      class="pt-4 pb-4 bg-gray-100 rounded text-center w-4/5 focus:bg-white focus:border-black" 
+      name="email" placeholder="email" [(ngModel)]="form.email">
+
+      <input type="password" id="password" 
+      class="pt-4 pb-4 mt-2 bg-gray-100 rounded text-center w-4/5 focus:bg-white focus:border-black" 
+       name="password" placeholder="password" [(ngModel)]="form.password" >
+
+      <input type="submit" 
+      class="rounded shadow-md shadow-sky-200 bg-sky-300 hover:bg-sky-400 text-center text-white px-20 py-3  mt-4 mb-9" 
+      value="LOG IN">
+    </form>
+ 
+    <!-- Remind Passowrd 
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Forgot Password?</a>
+    </div>-->
+
+  </div>
+</div>

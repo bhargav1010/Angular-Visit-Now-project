@@ -1,0 +1,29 @@
+<ng-container *ngIf="!isAuthenticated()">
+
+<nav class="shadow-2xl flex  p-4 bg-sky-300  text-white">
+  <div>
+        <a class='px-2 py-2 font-sans font-semibold text-center'>Welcome to Visit Now</a>
+    </div>
+      <div>
+        <a class="hover:bg-black hover:rounded px-2 py-2 mx-4 font-sans font-semibold text-right" routerLink="login"> Login</a>
+        <a class="hover:bg-black hover:rounded px-2 py-2 mx-4 font-sans font-semibold text-right" routerLink="register"> Register</a>
+      </div>
+  </nav>
+</ng-container>
+<ng-container *ngIf="isAuthenticated()">
+  <nav class="shadow-2xl flex justify-between p-4 bg-sky-300  text-white">
+    <div>
+      <a class='px-2 py-2 font-sans font-semibold text-center'>Welcome to Visit Now</a>
+    </div>
+        <div>
+          <a (click)='logout()' class="hover:bg-black hover:rounded px-2 py-2 mx-4 font-sans font-semibold" routerLink="logout">Logout</a>
+        </div>
+    </nav>
+</ng-container>
+
+
+<router-outlet></router-outlet>
+
+
+
+
