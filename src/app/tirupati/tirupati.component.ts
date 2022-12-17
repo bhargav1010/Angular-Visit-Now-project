@@ -29,7 +29,7 @@ export class TirupatiComponent {
       distance_from_railwaystation:'From RailwayStation: 11-13Km',
       distance_from_bustand:'From Bustand: 14-15Km',
     },
-    {
+    { 
       temple_name:'Kapila Theertham',
       temple_src:'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/af/53/34/pool-inside-kapila-theertham.jpg?w=1200&h=-1&s=1',
       distance_from_airport:'From Airport: 18-22Km',
