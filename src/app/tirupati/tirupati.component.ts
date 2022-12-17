@@ -77,7 +77,7 @@ export class TirupatiComponent {
       distance_from_airport:'From Airport: 22-28Km',
       distance_from_railwaystation:'From RailwayStation: 16-26Km',
       distance_from_bustand:'From Bustand: 16-25Km',
-    },
+    }
     
   ]
   
